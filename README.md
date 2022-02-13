@@ -1,2 +1,14 @@
-# windows-terminal-settings
-⚙️ ~ Windows Terminal Settings
+<h1>✨ My favorite Windows Terminal settings</h1>
+
+<h3>📜 How to install</h3>
+
+- Download the repository
+- Open Windows Terminal
+- Go to: Settings
+
+- Search for: **Open Settings(JSON)**
+- Copy the contents of the *settings.json* you downloaded and paste it into the file inside Windows Terminal.
+
+<h3>🗛 Fonts</h3>
+
+I use <a href="https://github.com/microsoft/cascadia-code">Cascadia Mono</a>.
