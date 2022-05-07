@@ -1,11 +1,9 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
@@ -20,8 +18,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -32,18 +29,25 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-    "profiles": 
-    {
+    "profiles": {
         "defaults": {},
-        "list": 
-        [
+        "list": [
             {
-                "colorScheme": "Dracula",
+                "name": "Windows PowerShell",
+                "acrylicOpacity": 0.5,
+                "useAcrylic": true,
+                "colorScheme": "Raspberry",
+                "cursorColor": "#FFFFFF",
+                "cursorShape": "filledBox",
+                "fontFace": "Cascadia Mono",
+                "fontSize": 10,
+                "padding": "5, 5, 5, 5",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "suppressApplicationTitle": true,
                 "hidden": false,
-                "name": "Windows PowerShell",
-                "fontFace": "Cascadia Mono"
+                "tabTitle": "shell",
+                "startingDirectory": "c:\\"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
@@ -71,30 +75,27 @@
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
-            "name": "Dracula",
-            "cursorColor": "#F8F8F2",
-            "selectionBackground": "#44475A",
-            "background": "#282A36",
-            "foreground": "#F8F8F2",
-            "black": "#21222C",
-            "blue": "#BD93F9",
-            "cyan": "#8BE9FD",
-            "green": "#50FA7B",
-            "purple": "#FF79C6",
-            "red": "#FF5555",
-            "white": "#F8F8F2",
-            "yellow": "#F1FA8C",
-            "brightBlack": "#6272A4",
-            "brightBlue": "#D6ACFF",
-            "brightCyan": "#A4FFFF",
-            "brightGreen": "#69FF94",
-            "brightPurple": "#FF92DF",
-            "brightRed": "#FF6E6E",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFFFA5"
+            "name": "Raspberry",
+            "background": "#3C0315",
+            "black": "#282A2E",
+            "blue": "#0170C5",
+            "brightBlack": "#676E7A",
+            "brightBlue": "#80c8ff",
+            "brightCyan": "#8ABEB7",
+            "brightGreen": "#B5D680",
+            "brightPurple": "#AC79BB",
+            "brightRed": "#BD6D85",
+            "brightWhite": "#FFFFFD",
+            "brightYellow": "#FFFD76",
+            "cyan": "#3F8D83",
+            "foreground": "#FFFFFD",
+            "green": "#76AB23",
+            "purple": "#7D498F",
+            "red": "#BD0940",
+            "white": "#FFFFFD",
+            "yellow": "#E0DE48"
         },
         {
             "background": "#0C0C0C",
