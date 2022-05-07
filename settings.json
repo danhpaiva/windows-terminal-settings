@@ -39,7 +39,7 @@
                 "colorScheme": "Raspberry",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "filledBox",
-                "fontFace": "Cascadia Mono",
+                "fontFace": "JetBrains Mono NL",
                 "fontSize": 10,
                 "padding": "5, 5, 5, 5",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo",
