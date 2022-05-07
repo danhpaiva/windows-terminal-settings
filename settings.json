@@ -33,7 +33,7 @@
         "defaults": {},
         "list": [
             {
-                "colorScheme": "Monokai Pro",
+                "colorScheme": "Monokai Pro (Filter Octagon)",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
@@ -44,27 +44,25 @@
     },
     "schemes": [
         {
-            "name": "Monokai Pro",
-            "black": "#403e41",
-            "red": "#ff6188",
-            "green": "#a9dc76",
-            "yellow": "#ffd866",
-            "blue": "#fc9867",
-            "purple": "#ab9df2",
-            "cyan": "#78dce8",
-            "white": "#fcfcfa",
-            "brightBlack": "#727072",
-            "brightRed": "#ff6188",
-            "brightGreen": "#a9dc76",
-            "brightYellow": "#ffd866",
-            "brightBlue": "#fc9867",
-            "brightPurple": "#ab9df2",
-            "brightCyan": "#78dce8",
-            "brightWhite": "#fcfcfa",
-            "background": "#403e41",
-            "foreground": "#fcfcfa",
-            "selectionBackground": "#fcfcfa",
-            "cursorColor": "#fcfcfa"
-        }
+            "name": "Monokai Pro (Filter Octagon)",
+            "black": "#000000",
+            "red": "#d81e00",
+            "green": "#5ea702",
+            "yellow": "#cfae00",
+            "blue": "#427ab3",
+            "purple": "#89658e",
+            "cyan": "#00a7aa",
+            "white": "#dbded8",
+            "brightBlack": "#686a66",
+            "brightRed": "#f54235",
+            "brightGreen": "#99e343",
+            "brightYellow": "#fdeb61",
+            "brightBlue": "#84b0d8",
+            "brightPurple": "#bc94b7",
+            "brightCyan": "#37e6e8",
+            "brightWhite": "#f1f1f0",
+            "background": "#282a3a",
+            "foreground": "#eaf2f1"
+          }
     ]
 }
