@@ -33,7 +33,7 @@
         "defaults": {},
         "list": [
             {
-                "colorScheme": "Moonlight II",
+                "colorScheme": "Monokai Pro",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
@@ -44,27 +44,27 @@
     },
     "schemes": [
         {
-            "background": "#222436",
-            "black": "#191A2A",
-            "blue": "#82AAFF",
-            "brightBlack": "#828BB8",
-            "brightBlue": "#82AAFF",
-            "brightCyan": "#86E1FC",
-            "brightGreen": "#C3E88D",
-            "brightPurple": "#C099FF",
-            "brightRed": "#FF757F",
-            "brightWhite": "#C8D3F5",
-            "brightYellow": "#FFC777",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#86E1FC",
-            "foreground": "#C8D3F5",
-            "green": "#C3E88D",
-            "name": "Moonlight II",
-            "purple": "#C099FF",
-            "red": "#FF757F",
-            "selectionBackground": "#FFFFFF",
-            "white": "#C8D3F5",
-            "yellow": "#FFC777"
+            "name": "Monokai Pro",
+            "black": "#403e41",
+            "red": "#ff6188",
+            "green": "#a9dc76",
+            "yellow": "#ffd866",
+            "blue": "#fc9867",
+            "purple": "#ab9df2",
+            "cyan": "#78dce8",
+            "white": "#fcfcfa",
+            "brightBlack": "#727072",
+            "brightRed": "#ff6188",
+            "brightGreen": "#a9dc76",
+            "brightYellow": "#ffd866",
+            "brightBlue": "#fc9867",
+            "brightPurple": "#ab9df2",
+            "brightCyan": "#78dce8",
+            "brightWhite": "#fcfcfa",
+            "background": "#403e41",
+            "foreground": "#fcfcfa",
+            "selectionBackground": "#fcfcfa",
+            "cursorColor": "#fcfcfa"
         }
     ]
 }
