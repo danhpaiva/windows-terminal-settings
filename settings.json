@@ -1,9 +1,11 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [
+    "actions": 
+    [
         {
-            "command": {
+            "command": 
+            {
                 "action": "copy",
                 "singleLine": false
             },
@@ -18,7 +20,8 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -32,16 +35,19 @@
     "copyOnSelect": true,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "disableAnimations": true,
-    "launchMode": "default",
-    "profiles": {
+    "launchMode": "focus",
+    "profiles": 
+    {
         "defaults": {},
-        "list": [
+        "list": 
+        [
             {
                 "colorScheme": "Moonlight II",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "filledBox",
-                "font": {
+                "font": 
+                {
                     "face": "JetBrains Mono",
                     "size": 10
                 },
@@ -83,27 +89,30 @@
             }
         ]
     },
-    "schemes": [
+    "schemes": 
+    [
         {
-            "name": "Moonlight II",
-            "black": "#191a2a",
-            "red": "#ff757f",
-            "green": "#c3e88d",
-            "yellow": "#ffc777",
-            "blue": "#82aaff",
-            "purple": "#c099ff",
-            "cyan": "#86e1fc",
-            "white": "#c8d3f5",
-            "brightBlack": "#828bb8",
-            "brightRed": "#ff757f",
-            "brightGreen": "#c3e88d",
-            "brightYellow": "#ffc777",
-            "brightBlue": "#82aaff",
-            "brightPurple": "#c099ff",
-            "brightCyan": "#86e1fc",
-            "brightWhite": "#c8d3f5",
-            "background": "#222436",
-            "foreground": "#c8d3f5"
+            "background": "#0C0C0C",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#CCCCCC",
+            "green": "#13A10E",
+            "name": "Campbell",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
         },
         {
             "background": "#012456",
@@ -150,6 +159,29 @@
             "selectionBackground": "#F8F8F2",
             "white": "#F8F8F2",
             "yellow": "#FFCB6B"
+        },
+        {
+            "background": "#222436",
+            "black": "#191A2A",
+            "blue": "#82AAFF",
+            "brightBlack": "#828BB8",
+            "brightBlue": "#82AAFF",
+            "brightCyan": "#86E1FC",
+            "brightGreen": "#C3E88D",
+            "brightPurple": "#C099FF",
+            "brightRed": "#FF757F",
+            "brightWhite": "#C8D3F5",
+            "brightYellow": "#FFC777",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#86E1FC",
+            "foreground": "#C8D3F5",
+            "green": "#C3E88D",
+            "name": "Moonlight II",
+            "purple": "#C099FF",
+            "red": "#FF757F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#C8D3F5",
+            "yellow": "#FFC777"
         },
         {
             "background": "#282C34",
