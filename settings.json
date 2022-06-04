@@ -42,7 +42,7 @@
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "filledBox",
                 "font": {
-                    "face": "MesloLGS NF",
+                    "face": "JetBrains Mono",
                     "size": 10
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
