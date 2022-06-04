@@ -37,12 +37,12 @@
         "defaults": {},
         "list": [
             {
-                "colorScheme": "Dracula+",
+                "colorScheme": "Moonlight II",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "filledBox",
                 "font": {
-                    "face": "Cascadia Mono",
+                    "face": "MesloLGS NF",
                     "size": 10
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -68,32 +68,42 @@
                 "hidden": false,
                 "name": "Git Bash",
                 "source": "Git"
+            },
+            {
+                "guid": "{3f0f5e1b-9a7e-5617-b87f-78b11410d23f}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{ab9e68a0-faa4-5f9b-a67a-64c3cdfa9665}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
     "schemes": [
         {
-            "background": "#0C0C0C",
-            "black": "#0C0C0C",
-            "blue": "#0037DA",
-            "brightBlack": "#767676",
-            "brightBlue": "#3B78FF",
-            "brightCyan": "#61D6D6",
-            "brightGreen": "#16C60C",
-            "brightPurple": "#B4009E",
-            "brightRed": "#E74856",
-            "brightWhite": "#F2F2F2",
-            "brightYellow": "#F9F1A5",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#3A96DD",
-            "foreground": "#CCCCCC",
-            "green": "#13A10E",
-            "name": "Campbell",
-            "purple": "#881798",
-            "red": "#C50F1F",
-            "selectionBackground": "#FFFFFF",
-            "white": "#CCCCCC",
-            "yellow": "#C19C00"
+            "name": "Moonlight II",
+            "black": "#191a2a",
+            "red": "#ff757f",
+            "green": "#c3e88d",
+            "yellow": "#ffc777",
+            "blue": "#82aaff",
+            "purple": "#c099ff",
+            "cyan": "#86e1fc",
+            "white": "#c8d3f5",
+            "brightBlack": "#828bb8",
+            "brightRed": "#ff757f",
+            "brightGreen": "#c3e88d",
+            "brightYellow": "#ffc777",
+            "brightBlue": "#82aaff",
+            "brightPurple": "#c099ff",
+            "brightCyan": "#86e1fc",
+            "brightWhite": "#c8d3f5",
+            "background": "#222436",
+            "foreground": "#c8d3f5"
         },
         {
             "background": "#012456",
