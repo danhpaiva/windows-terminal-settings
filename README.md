@@ -11,4 +11,4 @@
 
 <h3>🗛 Fonts</h3>
 
-I use <a href="https://github.com/microsoft/cascadia-code">Cascadia Mono</a>.
+I use [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono).
