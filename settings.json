@@ -1,11 +1,9 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
@@ -20,8 +18,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -29,33 +26,33 @@
             "keys": "alt+shift+d"
         }
     ],
-    "alwaysOnTop": false,
     "alwaysShowTabs": true,
-    "copyFormatting": "none",
     "copyOnSelect": true,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "disableAnimations": true,
-    "launchMode": "focus",
-    "profiles": 
-    {
-        "defaults": {},
-        "list": 
-        [
+    "launchMode": "default",
+    "centerOnLaunch": true,
+    "profiles": {
+        "defaults": {
+            "elevate": true,
+            "colorScheme": "Moonlight II",
+            "scrollbarState": "hidden",
+            "antialiasingMode": "grayscale",
+            "cursorColor": "#FFFFFF",
+            "cursorShape": "filledBox",
+            "font": {
+                "face": "JetBrains Mono",
+                "size": 10
+            },
+            "startingDirectory": "C:\\"
+        },
+        "list": [
             {
-                "colorScheme": "Moonlight II",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo",
-                "cursorColor": "#FFFFFF",
-                "cursorShape": "filledBox",
-                "font": 
-                {
-                    "face": "JetBrains Mono",
-                    "size": 10
-                },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "PowerShell",
-                "padding": "5, 5, 5, 5",
-                "startingDirectory": "C:\\"
+                "padding": "5, 5, 5, 5"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
@@ -89,8 +86,7 @@
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -136,29 +132,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
-        },
-        {
-            "background": "#212121",
-            "black": "#21222C",
-            "blue": "#82AAFF",
-            "brightBlack": "#545454",
-            "brightBlue": "#D6ACFF",
-            "brightCyan": "#A4FFFF",
-            "brightGreen": "#69FF94",
-            "brightPurple": "#FF92DF",
-            "brightRed": "#FF6E6E",
-            "brightWhite": "#F8F8F2",
-            "brightYellow": "#FFCB6B",
-            "cursorColor": "#ECEFF4",
-            "cyan": "#8BE9FD",
-            "foreground": "#F8F8F2",
-            "green": "#50FA7B",
-            "name": "Dracula+",
-            "purple": "#C792EA",
-            "red": "#FF5555",
-            "selectionBackground": "#F8F8F2",
-            "white": "#F8F8F2",
-            "yellow": "#FFCB6B"
         },
         {
             "background": "#222436",
@@ -345,9 +318,6 @@
             "yellow": "#808000"
         }
     ],
-    "showTabsInTitlebar": true,
-    "showTerminalTitleInTitlebar": true,
     "tabWidthMode": "equal",
-    "theme": "dark",
-    "useAcrylicInTabRow": false
+    "theme": "dark"
 }
