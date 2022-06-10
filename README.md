@@ -11,4 +11,4 @@
 
 <h3>🗛 Fonts</h3>
 
-I use [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono).
+I use [Cascadia Mono](https://github.com/microsoft/cascadia-code).
