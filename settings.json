@@ -40,7 +40,7 @@
             "cursorColor": "#FFFFFF",
             "cursorShape": "filledBox",
             "font": {
-                "face": "JetBrains Mono",
+                "face": "Cascadia Mono",
                 "size": 10
             },
             "startingDirectory": "C:\\"
