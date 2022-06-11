@@ -34,7 +34,7 @@
     "centerOnLaunch": true,
     "profiles": {
         "defaults": {
-            "colorScheme": "Hyper",
+            "colorScheme": "Dracula+",
             "scrollbarState": "hidden",
             "antialiasingMode": "grayscale",
             "cursorColor": "#FFFFFF",
@@ -58,34 +58,33 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Prompt de comando"
-            },
-            {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-                "hidden": false,
-                "name": "Git Bash",
-                "source": "Git"
-            },
-            {
-                "guid": "{3f0f5e1b-9a7e-5617-b87f-78b11410d23f}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{ab9e68a0-faa4-5f9b-a67a-64c3cdfa9665}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
     "schemes": [
+        {
+            "name": "Dracula+",
+            "black": "#21222c",
+            "red": "#ff5555",
+            "green": "#50fa7b",
+            "yellow": "#ffcb6b",
+            "blue": "#82aaff",
+            "purple": "#c792ea",
+            "cyan": "#8be9fd",
+            "white": "#f8f8f2",
+            "brightBlack": "#545454",
+            "brightRed": "#ff6e6e",
+            "brightGreen": "#69ff94",
+            "brightYellow": "#ffcb6b",
+            "brightBlue": "#d6acff",
+            "brightPurple": "#ff92df",
+            "brightCyan": "#a4ffff",
+            "brightWhite": "#f8f8f2",
+            "background": "#212121",
+            "foreground": "#f8f8f2",
+            "selectionBackground": "#f8f8f2",
+            "cursorColor": "#eceff4"
+        },
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -131,29 +130,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
-        },
-        {
-            "name": "Hyper",
-            "black": "#000000",
-            "red": "#FE0100",
-            "green": "#33FF00",
-            "yellow": "#FEFF00",
-            "blue": "#0066FF",
-            "purple": "#CC00FF",
-            "cyan": "#00FFFF",
-            "white": "#D0D0D0",
-            "brightBlack": "#808080",
-            "brightRed": "#FE0100",
-            "brightGreen": "#33FF00",
-            "brightYellow": "#FEFF00",
-            "brightBlue": "#0066FF",
-            "brightPurple": "#CC00FF",
-            "brightCyan": "#00FFFF",
-            "brightWhite": "#FFFFFF",
-            "background": "#000000",
-            "foreground": "#FFFFFF",
-            "selectionBackground": "#F81CE5",
-            "cursorColor": "#FFFFFF"
         },
         {
             "background": "#282C34",
