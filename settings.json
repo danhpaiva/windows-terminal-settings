@@ -27,22 +27,21 @@
         }
     ],
     "alwaysShowTabs": true,
+    "centerOnLaunch": true,
     "copyOnSelect": true,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "disableAnimations": true,
     "launchMode": "default",
-    "centerOnLaunch": true,
     "profiles": {
         "defaults": {
-            "colorScheme": "Dracula+",
-            "scrollbarState": "hidden",
-            "antialiasingMode": "grayscale",
+            "colorScheme": "Ubuntu",
             "cursorColor": "#FFFFFF",
             "cursorShape": "filledBox",
             "font": {
                 "face": "Cascadia Mono",
                 "size": 10
             },
+            "scrollbarState": "hidden",
             "startingDirectory": "C:\\"
         },
         "list": [
@@ -62,29 +61,6 @@
         ]
     },
     "schemes": [
-        {
-            "name": "Dracula+",
-            "black": "#21222c",
-            "red": "#ff5555",
-            "green": "#50fa7b",
-            "yellow": "#ffcb6b",
-            "blue": "#82aaff",
-            "purple": "#c792ea",
-            "cyan": "#8be9fd",
-            "white": "#f8f8f2",
-            "brightBlack": "#545454",
-            "brightRed": "#ff6e6e",
-            "brightGreen": "#69ff94",
-            "brightYellow": "#ffcb6b",
-            "brightBlue": "#d6acff",
-            "brightPurple": "#ff92df",
-            "brightCyan": "#a4ffff",
-            "brightWhite": "#f8f8f2",
-            "background": "#212121",
-            "foreground": "#f8f8f2",
-            "selectionBackground": "#f8f8f2",
-            "cursorColor": "#eceff4"
-        },
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -130,6 +106,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "name": "Ubuntu",
+            "black": "#2e3436",
+            "red": "#cc0000",
+            "green": "#4e9a06",
+            "yellow": "#c4a000",
+            "blue": "#3465a4",
+            "purple": "#75507b",
+            "cyan": "#06989a",
+            "white": "#d3d7cf",
+            "brightBlack": "#555753",
+            "brightRed": "#ef2929",
+            "brightGreen": "#8ae234",
+            "brightYellow": "#fce94f",
+            "brightBlue": "#729fcf",
+            "brightPurple": "#ad7fa8",
+            "brightCyan": "#34e2e2",
+            "brightWhite": "#eeeeec",
+            "background": "#300a24",
+            "foreground": "#eeeeec",
+            "selectionBackground": "#b5d5ff",
+            "cursorColor": "#bbbbbb"
         },
         {
             "background": "#282C34",
