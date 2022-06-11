@@ -4,7 +4,11 @@
 
 - Download the repository
 - Open Windows Terminal
-- Go to: Settings
+- press 
+
+~~~
+control + ,
+~~~
 
 - Search for: **Open Settings(JSON)**
 - Copy the contents of the *settings.json* you downloaded and paste it into the file inside Windows Terminal.
