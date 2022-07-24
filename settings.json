@@ -32,9 +32,12 @@
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "disableAnimations": true,
     "launchMode": "default",
+    "tabWidthMode": "equal",
+    "theme": "dark",
     "profiles": {
         "defaults": {
-            "colorScheme": "Monokai Pro",
+            "name": "Ubuntu",
+            "colorScheme": "Raspberry",
             "cursorColor": "#FFFFFF",
             "cursorShape": "filledBox",
             "font": {
@@ -108,27 +111,25 @@
             "yellow": "#C19C00"
         },
         {
-            "name": "Monokai Pro",
-            "black": "#403e41",
-            "red": "#ff6188",
-            "green": "#a9dc76",
-            "yellow": "#ffd866",
-            "blue": "#fc9867",
-            "purple": "#ab9df2",
-            "cyan": "#78dce8",
-            "white": "#fcfcfa",
-            "brightBlack": "#727072",
-            "brightRed": "#ff6188",
-            "brightGreen": "#a9dc76",
-            "brightYellow": "#ffd866",
-            "brightBlue": "#fc9867",
-            "brightPurple": "#ab9df2",
-            "brightCyan": "#78dce8",
-            "brightWhite": "#fcfcfa",
-            "background": "#403e41",
-            "foreground": "#fcfcfa",
-            "selectionBackground": "#fcfcfa",
-            "cursorColor": "#fcfcfa"
+            "name": "Raspberry",
+            "background": "#3C0315",
+            "black": "#282A2E",
+            "blue": "#0170C5",
+            "brightBlack": "#676E7A",
+            "brightBlue": "#80c8ff",
+            "brightCyan": "#8ABEB7",
+            "brightGreen": "#B5D680",
+            "brightPurple": "#AC79BB",
+            "brightRed": "#BD6D85",
+            "brightWhite": "#FFFFFD",
+            "brightYellow": "#FFFD76",
+            "cyan": "#3F8D83",
+            "foreground": "#FFFFFD",
+            "green": "#76AB23",
+            "purple": "#7D498F",
+            "red": "#BD0940",
+            "white": "#FFFFFD",
+            "yellow": "#E0DE48"
         },
         {
             "background": "#282C34",
@@ -291,7 +292,5 @@
             "white": "#C0C0C0",
             "yellow": "#808000"
         }
-    ],
-    "tabWidthMode": "equal",
-    "theme": "dark"
+    ]
 }
