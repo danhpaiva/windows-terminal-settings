@@ -3,15 +3,15 @@
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": [
         {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
             "command": {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
         },
         {
             "command": "find",
@@ -26,14 +26,9 @@
             "keys": "alt+shift+d"
         }
     ],
-    "alwaysShowTabs": true,
-    "centerOnLaunch": true,
-    "copyOnSelect": true,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-    "disableAnimations": true,
-    "launchMode": "default",
-    "tabWidthMode": "equal",
-    "theme": "dark",
     "profiles": {
         "defaults": {
             "name": "Ubuntu",
@@ -52,7 +47,7 @@
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "name": "PowerShell",
+                "name": "Windows PowerShell",
                 "padding": "5, 5, 5, 5"
             },
             {
@@ -60,10 +55,49 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Prompt de comando"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{a3293a4b-7a5b-51e5-90e5-0876063ea239}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{e0a45705-fcaa-569b-a5e3-e06766055327}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
     "schemes": [
+        {
+            "name": "Raspberry",
+            "background": "#3C0315",
+            "black": "#282A2E",
+            "blue": "#0170C5",
+            "brightBlack": "#676E7A",
+            "brightBlue": "#80c8ff",
+            "brightCyan": "#8ABEB7",
+            "brightGreen": "#B5D680",
+            "brightPurple": "#AC79BB",
+            "brightRed": "#BD6D85",
+            "brightWhite": "#FFFFFD",
+            "brightYellow": "#FFFD76",
+            "cyan": "#3F8D83",
+            "foreground": "#FFFFFD",
+            "green": "#76AB23",
+            "purple": "#7D498F",
+            "red": "#BD0940",
+            "white": "#FFFFFD",
+            "yellow": "#E0DE48"
+        },
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -109,27 +143,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
-        },
-        {
-            "name": "Raspberry",
-            "background": "#3C0315",
-            "black": "#282A2E",
-            "blue": "#0170C5",
-            "brightBlack": "#676E7A",
-            "brightBlue": "#80c8ff",
-            "brightCyan": "#8ABEB7",
-            "brightGreen": "#B5D680",
-            "brightPurple": "#AC79BB",
-            "brightRed": "#BD6D85",
-            "brightWhite": "#FFFFFD",
-            "brightYellow": "#FFFD76",
-            "cyan": "#3F8D83",
-            "foreground": "#FFFFFD",
-            "green": "#76AB23",
-            "purple": "#7D498F",
-            "red": "#BD0940",
-            "white": "#FFFFFD",
-            "yellow": "#E0DE48"
         },
         {
             "background": "#282C34",
