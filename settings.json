@@ -3,15 +3,15 @@
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": [
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": "find",
@@ -26,78 +26,41 @@
             "keys": "alt+shift+d"
         }
     ],
+    "alwaysOnTop": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "disableAnimations": true,
     "profiles": {
         "defaults": {
-            "name": "Ubuntu",
-            "colorScheme": "Raspberry",
+            "colorScheme": "Moonlight II",
             "cursorColor": "#FFFFFF",
             "cursorShape": "filledBox",
+            "elevate": true,
             "font": {
                 "face": "Cascadia Mono",
                 "size": 10
             },
-            "scrollbarState": "hidden",
-            "startingDirectory": "C:\\",
-            "padding": "5, 5, 5, 5"
+            "name": "Ubuntu",
+            "padding": "5, 5, 5, 5",
+            "startingDirectory": "C:\\"
         },
         "list": [
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "name": "Windows PowerShell"
-            },
-            {
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "name": "Prompt de comando"
+                "name": "~shell"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{a3293a4b-7a5b-51e5-90e5-0876063ea239}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{e0a45705-fcaa-569b-a5e3-e06766055327}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
     "schemes": [
-        {
-            "name": "Raspberry",
-            "background": "#3C0315",
-            "black": "#282A2E",
-            "blue": "#0170C5",
-            "brightBlack": "#676E7A",
-            "brightBlue": "#80c8ff",
-            "brightCyan": "#8ABEB7",
-            "brightGreen": "#B5D680",
-            "brightPurple": "#AC79BB",
-            "brightRed": "#BD6D85",
-            "brightWhite": "#FFFFFD",
-            "brightYellow": "#FFFD76",
-            "cyan": "#3F8D83",
-            "foreground": "#FFFFFD",
-            "green": "#76AB23",
-            "purple": "#7D498F",
-            "red": "#BD0940",
-            "white": "#FFFFFD",
-            "yellow": "#E0DE48"
-        },
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -143,6 +106,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#222436",
+            "black": "#191A2A",
+            "blue": "#82AAFF",
+            "brightBlack": "#828BB8",
+            "brightBlue": "#82AAFF",
+            "brightCyan": "#86E1FC",
+            "brightGreen": "#C3E88D",
+            "brightPurple": "#C099FF",
+            "brightRed": "#FF757F",
+            "brightWhite": "#C8D3F5",
+            "brightYellow": "#FFC777",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#86E1FC",
+            "foreground": "#C8D3F5",
+            "green": "#C3E88D",
+            "name": "Moonlight II",
+            "purple": "#C099FF",
+            "red": "#FF757F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#C8D3F5",
+            "yellow": "#FFC777"
         },
         {
             "background": "#282C34",
@@ -305,5 +291,8 @@
             "white": "#C0C0C0",
             "yellow": "#808000"
         }
-    ]
+    ],
+    "showTerminalTitleInTitlebar": true,
+    "theme": "dark",
+    "centerOnLaunch": true
 }
