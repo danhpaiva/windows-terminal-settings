@@ -40,15 +40,15 @@
                 "size": 10
             },
             "scrollbarState": "hidden",
-            "startingDirectory": "C:\\"
+            "startingDirectory": "C:\\",
+            "padding": "5, 5, 5, 5"
         },
         "list": [
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "name": "Windows PowerShell",
-                "padding": "5, 5, 5, 5"
+                "name": "Windows PowerShell"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
