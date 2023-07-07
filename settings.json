@@ -27,6 +27,7 @@
         }
     ],
     "alwaysOnTop": false,
+    "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -37,7 +38,7 @@
             "cursorColor": "#FFFFFF",
             "cursorShape": "filledBox",
             "font": {
-                "face": "Cascadia Mono",
+                "face": "MesloLGS NF",
                 "size": 10
             },
             "name": "Ubuntu",
@@ -56,6 +57,11 @@
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Ubuntu"
             }
         ]
     },
@@ -292,6 +298,5 @@
         }
     ],
     "showTerminalTitleInTitlebar": true,
-    "theme": "dark",
-    "centerOnLaunch": true
+    "theme": "dark"
 }
