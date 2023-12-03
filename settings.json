@@ -38,7 +38,7 @@
             "cursorColor": "#FFFFFF",
             "cursorShape": "filledBox",
             "font": {
-                "face": "MesloLGS NF",
+                "face": "Cascadia Mono",
                 "size": 10
             },
             "name": "Ubuntu",
