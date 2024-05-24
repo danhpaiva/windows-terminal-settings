@@ -14,27 +14,34 @@
             "keys": "ctrl+v"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         }
     ],
-    "alwaysOnTop": false,
+    "alwaysOnTop": true,
     "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "disableAnimations": true,
+    "showTerminalTitleInTitlebar": true,
+    "theme": "dark",
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": {
         "defaults": {
-            "colorScheme": "Moonlight II",
+            "colorScheme": "Ubuntu",
             "cursorColor": "#FFFFFF",
             "cursorShape": "filledBox",
             "font": {
@@ -50,7 +57,13 @@
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "name": "~shell"
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Prompt de comando"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -59,13 +72,43 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "guid": "{7e35c160-e8fe-57ef-b585-a439afdb451e}",
                 "hidden": false,
-                "name": "Ubuntu"
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{3a5e9b8e-1367-5314-804f-6b8d2b4f406e}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
     "schemes": [
+        {
+            "name": "Ubuntu",
+            "black": "#2e3436",
+            "red": "#cc0000",
+            "green": "#4e9a06",
+            "yellow": "#c4a000",
+            "blue": "#3465a4",
+            "purple": "#75507b",
+            "cyan": "#06989a",
+            "white": "#d3d7cf",
+            "brightBlack": "#555753",
+            "brightRed": "#ef2929",
+            "brightGreen": "#8ae234",
+            "brightYellow": "#fce94f",
+            "brightBlue": "#729fcf",
+            "brightPurple": "#ad7fa8",
+            "brightCyan": "#34e2e2",
+            "brightWhite": "#eeeeec",
+            "background": "#300a24",
+            "foreground": "#eeeeec",
+            "selectionBackground": "#b5d5ff",
+            "cursorColor": "#bbbbbb"
+        },
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -113,29 +156,6 @@
             "yellow": "#C19C00"
         },
         {
-            "background": "#222436",
-            "black": "#191A2A",
-            "blue": "#82AAFF",
-            "brightBlack": "#828BB8",
-            "brightBlue": "#82AAFF",
-            "brightCyan": "#86E1FC",
-            "brightGreen": "#C3E88D",
-            "brightPurple": "#C099FF",
-            "brightRed": "#FF757F",
-            "brightWhite": "#C8D3F5",
-            "brightYellow": "#FFC777",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#86E1FC",
-            "foreground": "#C8D3F5",
-            "green": "#C3E88D",
-            "name": "Moonlight II",
-            "purple": "#C099FF",
-            "red": "#FF757F",
-            "selectionBackground": "#FFFFFF",
-            "white": "#C8D3F5",
-            "yellow": "#FFC777"
-        },
-        {
             "background": "#282C34",
             "black": "#282C34",
             "blue": "#61AFEF",
@@ -177,7 +197,7 @@
             "name": "One Half Light",
             "purple": "#A626A4",
             "red": "#E45649",
-            "selectionBackground": "#FFFFFF",
+            "selectionBackground": "#4F525D",
             "white": "#FAFAFA",
             "yellow": "#C18301"
         },
@@ -223,7 +243,7 @@
             "name": "Solarized Light",
             "purple": "#D33682",
             "red": "#DC322F",
-            "selectionBackground": "#FFFFFF",
+            "selectionBackground": "#073642",
             "white": "#EEE8D5",
             "yellow": "#B58900"
         },
@@ -269,7 +289,7 @@
             "name": "Tango Light",
             "purple": "#75507B",
             "red": "#CC0000",
-            "selectionBackground": "#FFFFFF",
+            "selectionBackground": "#555753",
             "white": "#D3D7CF",
             "yellow": "#C4A000"
         },
@@ -297,6 +317,5 @@
             "yellow": "#808000"
         }
     ],
-    "showTerminalTitleInTitlebar": true,
-    "theme": "dark"
+    "themes": []
 }
