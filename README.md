@@ -17,4 +17,4 @@ control + ,
 
 I use [Cascadia Mono](https://github.com/microsoft/cascadia-code).
 
-Note: Windows Terminal v1.15 working
+Note: Windows Terminal v1.20 working
