@@ -1,9 +1,11 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [
+    "actions": 
+    [
         {
-            "command": {
+            "command": 
+            {
                 "action": "copy",
                 "singleLine": false
             },
@@ -14,7 +16,8 @@
             "keys": "ctrl+v"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -32,27 +35,24 @@
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "disableAnimations": true,
-    "showTerminalTitleInTitlebar": true,
-    "theme": "dark",
-    "newTabMenu": [
+    "profiles": 
+    {
+        "defaults": 
         {
-            "type": "remainingProfiles"
-        }
-    ],
-    "profiles": {
-        "defaults": {
-            "colorScheme": "Monokai Pro",
+            "colorScheme": "Dracula",
             "cursorColor": "#FFFFFF",
             "cursorShape": "filledBox",
-            "font": {
+            "font": 
+            {
                 "face": "Cascadia Mono",
                 "size": 10
             },
-            "name": "Monokai Pro",
+            "name": "Dracula",
             "padding": "5, 5, 5, 5",
             "startingDirectory": "C:\\"
         },
-        "list": [
+        "list": 
+        [
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -70,45 +70,11 @@
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{7e35c160-e8fe-57ef-b585-a439afdb451e}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{3a5e9b8e-1367-5314-804f-6b8d2b4f406e}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
-    "schemes": [
-        {
-            "name": "Monokai Pro",
-            "black": "#403e41",
-            "red": "#ff6188",
-            "green": "#a9dc76",
-            "yellow": "#ffd866",
-            "blue": "#fc9867",
-            "purple": "#ab9df2",
-            "cyan": "#78dce8",
-            "white": "#fcfcfa",
-            "brightBlack": "#727072",
-            "brightRed": "#ff6188",
-            "brightGreen": "#a9dc76",
-            "brightYellow": "#ffd866",
-            "brightBlue": "#fc9867",
-            "brightPurple": "#ab9df2",
-            "brightCyan": "#78dce8",
-            "brightWhite": "#fcfcfa",
-            "background": "#403e41",
-            "foreground": "#fcfcfa",
-            "selectionBackground": "#fcfcfa",
-            "cursorColor": "#fcfcfa"
-        },
+    "schemes": 
+    [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -154,6 +120,52 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#282A36",
+            "black": "#21222C",
+            "blue": "#BD93F9",
+            "brightBlack": "#6272A4",
+            "brightBlue": "#D6ACFF",
+            "brightCyan": "#A4FFFF",
+            "brightGreen": "#69FF94",
+            "brightPurple": "#FF92DF",
+            "brightRed": "#FF6E6E",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFFA5",
+            "cursorColor": "#F8F8F2",
+            "cyan": "#8BE9FD",
+            "foreground": "#F8F8F2",
+            "green": "#50FA7B",
+            "name": "Dracula",
+            "purple": "#FF79C6",
+            "red": "#FF5555",
+            "selectionBackground": "#44475A",
+            "white": "#F8F8F2",
+            "yellow": "#F1FA8C"
+        },
+        {
+            "background": "#403E41",
+            "black": "#403E41",
+            "blue": "#FC9867",
+            "brightBlack": "#727072",
+            "brightBlue": "#FC9867",
+            "brightCyan": "#78DCE8",
+            "brightGreen": "#A9DC76",
+            "brightPurple": "#AB9DF2",
+            "brightRed": "#FF6188",
+            "brightWhite": "#FCFCFA",
+            "brightYellow": "#FFD866",
+            "cursorColor": "#FCFCFA",
+            "cyan": "#78DCE8",
+            "foreground": "#FCFCFA",
+            "green": "#A9DC76",
+            "name": "Monokai Pro",
+            "purple": "#AB9DF2",
+            "red": "#FF6188",
+            "selectionBackground": "#FCFCFA",
+            "white": "#FCFCFA",
+            "yellow": "#FFD866"
         },
         {
             "background": "#282C34",
@@ -317,5 +329,6 @@
             "yellow": "#808000"
         }
     ],
-    "themes": []
+    "showTerminalTitleInTitlebar": true,
+    "theme": "dark"
 }
