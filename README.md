@@ -15,6 +15,6 @@ control + ,
 
 <h3>🗛 Fonts</h3>
 
-I use [Cascadia Mono](https://github.com/microsoft/cascadia-code).
+I use [Cascadia Mono](https://github.com/microsoft/cascadia-code) and PowerShell 7.
 
 Note: Windows Terminal v1.20 working
