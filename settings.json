@@ -34,14 +34,14 @@
     "disableAnimations": true,
     "profiles": {
         "defaults": {
-            "colorScheme": "Monokai Pro",
+            "colorScheme": "Ubuntu",
             "cursorColor": "#FFFFFF",
             "cursorShape": "filledBox",
             "font": {
                 "face": "Cascadia Mono",
                 "size": 10
             },
-            "name": "Monokai Pro",
+            "name": "Ubuntu",
             "padding": "5, 5, 5, 5"
         },
         "list": [
@@ -62,12 +62,6 @@
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "name": "Ubuntu PowerShell 7",
-                "source": "Windows.Terminal.PowershellCore"
             }
         ]
     },
@@ -117,6 +111,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#403E41",
+            "black": "#403E41",
+            "blue": "#FC9867",
+            "brightBlack": "#727072",
+            "brightBlue": "#FC9867",
+            "brightCyan": "#78DCE8",
+            "brightGreen": "#A9DC76",
+            "brightPurple": "#AB9DF2",
+            "brightRed": "#FF6188",
+            "brightWhite": "#FCFCFA",
+            "brightYellow": "#FFD866",
+            "cursorColor": "#FCFCFA",
+            "cyan": "#78DCE8",
+            "foreground": "#FCFCFA",
+            "green": "#A9DC76",
+            "name": "Monokai Pro",
+            "purple": "#AB9DF2",
+            "red": "#FF6188",
+            "selectionBackground": "#FCFCFA",
+            "white": "#FCFCFA",
+            "yellow": "#FFD866"
         },
         {
             "background": "#282C34",
@@ -280,27 +297,27 @@
             "yellow": "#808000"
         },
         {
-            "name": "Monokai Pro",
-            "black": "#403e41",
-            "red": "#ff6188",
-            "green": "#a9dc76",
-            "yellow": "#ffd866",
-            "blue": "#fc9867",
-            "purple": "#ab9df2",
-            "cyan": "#78dce8",
-            "white": "#fcfcfa",
-            "brightBlack": "#727072",
-            "brightRed": "#ff6188",
-            "brightGreen": "#a9dc76",
-            "brightYellow": "#ffd866",
-            "brightBlue": "#fc9867",
-            "brightPurple": "#ab9df2",
-            "brightCyan": "#78dce8",
-            "brightWhite": "#fcfcfa",
-            "background": "#403e41",
-            "foreground": "#fcfcfa",
-            "selectionBackground": "#fcfcfa",
-            "cursorColor": "#fcfcfa"
+            "name": "Ubuntu",
+            "black": "#2e3436",
+            "red": "#cc0000",
+            "green": "#4e9a06",
+            "yellow": "#c4a000",
+            "blue": "#3465a4",
+            "purple": "#75507b",
+            "cyan": "#06989a",
+            "white": "#d3d7cf",
+            "brightBlack": "#555753",
+            "brightRed": "#ef2929",
+            "brightGreen": "#8ae234",
+            "brightYellow": "#fce94f",
+            "brightBlue": "#729fcf",
+            "brightPurple": "#ad7fa8",
+            "brightCyan": "#34e2e2",
+            "brightWhite": "#eeeeec",
+            "background": "#300a24",
+            "foreground": "#eeeeec",
+            "selectionBackground": "#b5d5ff",
+            "cursorColor": "#bbbbbb"
         }
     ],
     "showTerminalTitleInTitlebar": true,
