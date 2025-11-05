@@ -26,12 +26,17 @@
             "keys": "ctrl+shift+f"
         }
     ],
-    "alwaysOnTop": true,
+    "alwaysOnTop": false,
     "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "disableAnimations": true,
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": {
         "defaults": {
             "colorScheme": "Moonlight II",
@@ -39,7 +44,7 @@
             "cursorShape": "filledBox",
             "font": {
                 "face": "Cascadia Mono",
-                "size": 10
+                "size": 10.0
             },
             "name": "Moonlight II",
             "padding": "5, 5, 5, 5"
@@ -62,6 +67,24 @@
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{5fb29cd3-e651-57c8-a4ca-ded47ad4a216}",
+                "hidden": false,
+                "name": "Moonlight II",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{240e1f92-7b49-5eaa-a430-127fc6d1aa2d}",
+                "hidden": false,
+                "name": "Moonlight II",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Moonlight II",
+                "source": "VSDebugConsole"
             }
         ]
     },
@@ -134,6 +157,29 @@
             "selectionBackground": "#FCFCFA",
             "white": "#FCFCFA",
             "yellow": "#FFD866"
+        },
+        {
+            "background": "#222436",
+            "black": "#191A2A",
+            "blue": "#82AAFF",
+            "brightBlack": "#828BB8",
+            "brightBlue": "#82AAFF",
+            "brightCyan": "#86E1FC",
+            "brightGreen": "#C3E88D",
+            "brightPurple": "#C099FF",
+            "brightRed": "#FF757F",
+            "brightWhite": "#C8D3F5",
+            "brightYellow": "#FFC777",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#86E1FC",
+            "foreground": "#C8D3F5",
+            "green": "#C3E88D",
+            "name": "Moonlight II",
+            "purple": "#C099FF",
+            "red": "#FF757F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#C8D3F5",
+            "yellow": "#FFC777"
         },
         {
             "background": "#282C34",
@@ -274,6 +320,29 @@
             "yellow": "#C4A000"
         },
         {
+            "background": "#300A24",
+            "black": "#2E3436",
+            "blue": "#3465A4",
+            "brightBlack": "#555753",
+            "brightBlue": "#729FCF",
+            "brightCyan": "#34E2E2",
+            "brightGreen": "#8AE234",
+            "brightPurple": "#AD7FA8",
+            "brightRed": "#EF2929",
+            "brightWhite": "#EEEEEC",
+            "brightYellow": "#FCE94F",
+            "cursorColor": "#BBBBBB",
+            "cyan": "#06989A",
+            "foreground": "#EEEEEC",
+            "green": "#4E9A06",
+            "name": "Ubuntu",
+            "purple": "#75507B",
+            "red": "#CC0000",
+            "selectionBackground": "#B5D5FF",
+            "white": "#D3D7CF",
+            "yellow": "#C4A000"
+        },
+        {
             "background": "#000000",
             "black": "#000000",
             "blue": "#000080",
@@ -295,75 +364,9 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
-        },
-        {
-            "name": "Ubuntu",
-            "black": "#2e3436",
-            "red": "#cc0000",
-            "green": "#4e9a06",
-            "yellow": "#c4a000",
-            "blue": "#3465a4",
-            "purple": "#75507b",
-            "cyan": "#06989a",
-            "white": "#d3d7cf",
-            "brightBlack": "#555753",
-            "brightRed": "#ef2929",
-            "brightGreen": "#8ae234",
-            "brightYellow": "#fce94f",
-            "brightBlue": "#729fcf",
-            "brightPurple": "#ad7fa8",
-            "brightCyan": "#34e2e2",
-            "brightWhite": "#eeeeec",
-            "background": "#300a24",
-            "foreground": "#eeeeec",
-            "selectionBackground": "#b5d5ff",
-            "cursorColor": "#bbbbbb"
-        },
-        {
-            "name": "Monokai Pro",
-            "black": "#403e41",
-            "red": "#ff6188",
-            "green": "#a9dc76",
-            "yellow": "#ffd866",
-            "blue": "#fc9867",
-            "purple": "#ab9df2",
-            "cyan": "#78dce8",
-            "white": "#fcfcfa",
-            "brightBlack": "#727072",
-            "brightRed": "#ff6188",
-            "brightGreen": "#a9dc76",
-            "brightYellow": "#ffd866",
-            "brightBlue": "#fc9867",
-            "brightPurple": "#ab9df2",
-            "brightCyan": "#78dce8",
-            "brightWhite": "#fcfcfa",
-            "background": "#403e41",
-            "foreground": "#fcfcfa",
-            "selectionBackground": "#fcfcfa",
-            "cursorColor": "#fcfcfa"
-        },
-        {
-            "name": "Moonlight II",
-            "black": "#191a2a",
-            "red": "#ff757f",
-            "green": "#c3e88d",
-            "yellow": "#ffc777",
-            "blue": "#82aaff",
-            "purple": "#c099ff",
-            "cyan": "#86e1fc",
-            "white": "#c8d3f5",
-            "brightBlack": "#828bb8",
-            "brightRed": "#ff757f",
-            "brightGreen": "#c3e88d",
-            "brightYellow": "#ffc777",
-            "brightBlue": "#82aaff",
-            "brightPurple": "#c099ff",
-            "brightCyan": "#86e1fc",
-            "brightWhite": "#c8d3f5",
-            "background": "#222436",
-            "foreground": "#c8d3f5"
         }
     ],
     "showTerminalTitleInTitlebar": true,
-    "theme": "dark"
+    "theme": "dark",
+    "themes": []
 }
