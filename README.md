@@ -1,20 +1,36 @@
-<h1>✨ My favorite Windows Terminal settings</h1>
+# 🚀 My Ultimate Windows Terminal Setup
 
-<h3>📜 How to install</h3>
+Este repositório contém minhas configurações personalizadas para o Windows Terminal, focadas em produtividade para desenvolvedores .NET e entusiastas de Git. Inclui um prompt customizado que exibe o diretório atual e o status do branch Git sem necessidade de extensões externas.
 
-- Download the repository
-- Open Windows Terminal
-- press 
+## ✨ Destaques
 
-~~~
-control + ,
-~~~
+* **Prompt Nativo Ultra-rápido:** Mostra o branch do Git e status de modificação (+/?) sem lag.
+* **Visual Moderno:** Esquema de cores Hyper com efeito Acrílico (transparência).
+* **Atalhos Sênior:** Gerenciamento de painéis divididos (Split Panes) via teclado.
+* **Otimizado para Devs:** Configurações de fonte e padding ajustadas para longas horas de código.
 
-- Search for: **Open Settings(JSON)**
-- Copy the contents of the *settings.json* you downloaded and paste it into the file inside Windows Terminal.
+## 📜 Como Instalar
 
-<h3>🗛 Fonts</h3>
+### 1. Configurar o Terminal
 
-I use [Cascadia Mono](https://github.com/microsoft/cascadia-code) and PowerShell 7.
+1. Abra o Windows Terminal.
+2. Pressione `Ctrl + ,` e clique em **Abrir arquivo JSON** (canto inferior esquerdo).
+3. Substitua o conteúdo pelo arquivo `settings.json` deste repositório.
 
-Note: Windows Terminal v1.20 working
+### 2. Configurar o Prompt (Git Status)
+
+Para ter o indicador de branch e diretório, execute o script de automação incluído:
+
+1. Abra o PowerShell como Administrador.
+2. Execute:
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+.\Setup-Terminal.ps1
+
+```
+
+## 🗛 Requisitos de Fonte
+
+Eu utilizo a [Cascadia Code](https://github.com/microsoft/cascadia-code/releases) para habilitar **ligaduras tipográficas** (ex: `!=` vira `≠`).
+
+---
