@@ -1,12 +1,13 @@
-# 🚀 My Ultimate Windows Terminal Setup
+# 🚀 My Windows Terminal Setup
 
-Este repositório contém minhas configurações personalizadas para o Windows Terminal, focadas em produtividade para desenvolvedores .NET e entusiastas de Git. Inclui um prompt customizado que exibe o diretório atual e o status do branch Git sem necessidade de extensões externas.
+Este repositório contém minhas configurações personalizadas para o Windows Terminal, focadas em produtividade para desenvolvedores .NET e entusiastas de Git. 
+Inclui um prompt customizado que exibe o diretório atual e o status do branch Git sem necessidade de extensões externas.
 
 ## ✨ Destaques
 
 * **Prompt Nativo Ultra-rápido:** Mostra o branch do Git e status de modificação (+/?) sem lag.
 * **Visual Moderno:** Esquema de cores Hyper com efeito Acrílico (transparência).
-* **Atalhos Sênior:** Gerenciamento de painéis divididos (Split Panes) via teclado.
+* **Atalhos:** Gerenciamento de painéis divididos (Split Panes) via teclado.
 * **Otimizado para Devs:** Configurações de fonte e padding ajustadas para longas horas de código.
 
 ## 📜 Como Instalar
@@ -34,3 +35,5 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 Eu utilizo a [Cascadia Code](https://github.com/microsoft/cascadia-code/releases) para habilitar **ligaduras tipográficas** (ex: `!=` vira `≠`).
 
 ---
+
+Caso seja necessario, crie um novo arquivo com o conteudo do Setup-Terminal.ps1 e  execute em sua maquina.
